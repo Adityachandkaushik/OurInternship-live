@@ -3,7 +3,7 @@ import {
   createInternship,
   getAllInternships,
   getInternshipById,
-  updateInternship,
+  updateInternship,  
   deleteInternship,
   getInternshipStatus
 } from "../controllers/internship.controller.js";
