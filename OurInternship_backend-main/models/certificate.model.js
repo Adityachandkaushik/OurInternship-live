@@ -2,7 +2,7 @@
 import mongoose from "mongoose";
 import { nanoid } from "nanoid";
 
-const certificateSchema = new mongoose.Schema({
+const certificateSchema = new mongoose.Schema({  
   studentId: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "Student",
