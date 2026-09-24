@@ -12,7 +12,7 @@ router.post("/register", register);
 router.post("/login", login);
 
 // Logout
-router.post("/logout", logout);
+router.post("/logout", logout);  
 
 // Get logged-in user profile
 // router.get("/profile", isAuthenticated, p);
