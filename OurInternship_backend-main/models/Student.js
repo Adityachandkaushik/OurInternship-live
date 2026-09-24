@@ -9,7 +9,7 @@ const studentSchema = new mongoose.Schema(
     offerLetterIssued: {
       type: Boolean,
       default: false,
-    },
+    },  
     offerLetterIssuedAt: {
       type: Date,
     },
