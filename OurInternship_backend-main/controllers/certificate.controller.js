@@ -13,7 +13,7 @@ import axios from "axios";
  */
 export const generateAndIssueCertificate = async (req, res) => {
   try {
-    const { studentId } = req.params;
+    const { studentId } = req.params;  
     const { startDate, endDate } = req.body;
 
     // ✅ Populate ONLY internship
