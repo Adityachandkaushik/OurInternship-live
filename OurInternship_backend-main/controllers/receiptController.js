@@ -3,7 +3,7 @@ import path from "path";
 import Student from "../models/Student.js";
 
 export const downloadReceipt = async (req, res) => {
-  try {
+  try {       
     const { applicationId } = req.params;
 
 const student = await Student.findOne({ applicationId })
