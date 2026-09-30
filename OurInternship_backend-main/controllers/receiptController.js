@@ -5,7 +5,7 @@ import Student from "../models/Student.js";
 export const downloadReceipt = async (req, res) => {
   try {       
     const { applicationId } = req.params;
-
+   
 const student = await Student.findOne({ applicationId })
   .populate("internshipId");
 console.log(student)
