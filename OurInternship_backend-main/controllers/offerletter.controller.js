@@ -2,7 +2,7 @@ import { generateOfferLetterPDF } from "../utils/generateOfferLetterPDF.js";
 // import { sendOfferLetterEmail } from "../services/email.service.js";
 import Student from "../models/Student.js";
 import { sendOfferLetterEmail } from "../utils/sendOfferLetterEmail.js";
-import { deleteFromCloudinaryByUrl } from "../utils/cloudinary.js";
+import { deleteFromCloudinaryByUrl } from "../utils/cloudinary.js";   
 
 
 export const verifyOfferLetter = async (req, res) => {
