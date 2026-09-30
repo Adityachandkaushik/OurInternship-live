@@ -2,7 +2,7 @@
 import Student from "../models/Student.js";
 import crypto from "crypto";
 import { sendPaymentEmail } from "../utils/mailer.js";
-import { generateReceiptPDF } from "../utils/generateReceiptPDF.js";
+import { generateReceiptPDF } from "../utils/generateReceiptPDF.js"; 
 import InternshipModel from "../models/Internship.model.js";
 import { autoIssueOfferLetter } from "./offerletter.controller.js";
 import { mongoose } from "mongoose";
