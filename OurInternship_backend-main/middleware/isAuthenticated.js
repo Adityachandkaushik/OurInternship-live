@@ -1,7 +1,7 @@
 //middleware work between request and response   
   
 import jwt from "jsonwebtoken";
-
+    
 const isAuthenticated=async(req,res,next)=>{  
     try {      
         const token=req.cookies.token;
