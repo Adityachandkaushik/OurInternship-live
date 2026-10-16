@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const studentSchema = new mongoose.Schema(
+const studentSchema = new mongoose.Schema(   
   {
     applicationId: {
       type: String,   
