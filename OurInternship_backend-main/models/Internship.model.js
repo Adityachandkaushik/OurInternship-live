@@ -7,7 +7,7 @@ const internshipSchema = new mongoose.Schema(
     description: { type: String, required: true },
 
     startDate: { type: Date, required: true },
-    endDate: { type: Date, required: true },
+    endDate: { type: Date, required: true },   
     lastDate: { type: Date, required: true },
 
     roles: [{ type: String }], // HR, Marketing, Social Media
