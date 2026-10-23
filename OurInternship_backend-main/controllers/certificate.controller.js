@@ -4,7 +4,7 @@ import { Certificate } from "../models/certificate.model.js";
 import { generateCertificate, generateQRCode } from "../utils/generateCertificate.js";
 import { sendCertificateMail } from "../utils/sendMail.js";
 import { uploadCertificateToCloudinary} from "../utils/cloudinary.js";
-import crypto from "crypto";
+import crypto from "crypto";    
 import axios from "axios";
 
 
