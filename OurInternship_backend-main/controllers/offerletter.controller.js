@@ -8,7 +8,7 @@ import { deleteFromCloudinaryByUrl } from "../utils/cloudinary.js";
 export const verifyOfferLetter = async (req, res) => {
   const student = await Student.findOne({
     applicationId: req.params.applicationId,
-    offerLetterIssued: true,
+    offerLetterIssued: true,      
   });
 
   if (!student) {
