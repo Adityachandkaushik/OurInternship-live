@@ -9,7 +9,7 @@ export const verifyOfferLetter = async (req, res) => {
   const student = await Student.findOne({
     applicationId: req.params.applicationId,
     offerLetterIssued: true,      
-  });
+  });    
 
   if (!student) {
     return res.status(404).send("Invalid Offer Letter");
