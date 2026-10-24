@@ -4,7 +4,7 @@ import Student from "../models/Student.js";
 /**
  * CREATE INTERNSHIP    
  * POST /api/internships
- */
+ */   
   
 export const createInternship = async (req, res) => {
   try {
