@@ -1,5 +1,5 @@
 // controllers/studentController.js
-import Student from "../models/Student.js";
+import Student from "../models/Student.js      
 import crypto from "crypto";
 import { sendPaymentEmail } from "../utils/mailer.js";
 import { generateReceiptPDF } from "../utils/generateReceiptPDF.js"; 
