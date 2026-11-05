@@ -1,6 +1,6 @@
 import Internship from "../models/Internship.model.js";
 import Student from "../models/Student.js";   
-
+   
 /**
  * CREATE INTERNSHIP    
  * POST /api/internships
