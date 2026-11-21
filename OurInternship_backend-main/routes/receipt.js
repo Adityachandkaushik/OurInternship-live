@@ -5,4 +5,4 @@ const router = express.Router();
    
 router.get("/:applicationId", downloadReceipt);
 
-export default router;
+export default router;  
