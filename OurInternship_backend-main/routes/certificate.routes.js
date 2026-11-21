@@ -6,7 +6,7 @@ import {
   getCertificateDetails,
   getStudentCertificates,
   downloadCertificate,
-  getAllCertificates,
+  getAllCertificates,    
   resendCertificateEmail,
 } from "../controllers/certificate.controller.js";
 import { getCertificateById } from "../controllers/certificate.controller.js";
