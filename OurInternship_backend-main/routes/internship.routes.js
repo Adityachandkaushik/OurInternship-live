@@ -1,7 +1,7 @@
 import express from "express";
 import {
   createInternship,
-  getAllInternships,
+  getAllInternships,   
   getInternshipById,
   updateInternship,  
   deleteInternship,
